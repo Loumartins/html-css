@@ -21,7 +21,14 @@ h2 {
 .item {
   background: #ddd;
   border: 1px solid #e7e7e7;
-  margin-bottom: 20px;
   padding: 20px;
   border-radius: 4px;
+  display: grid;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  justify-content: center;
 }
