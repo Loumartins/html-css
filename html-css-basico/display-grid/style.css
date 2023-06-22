@@ -1,34 +1,58 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.titulo {
+  grid-column: 2;
+  text-align: right;
+}
+
+.preco {
+  place-self: start end;
+}
+
+.comprar {
+  align-self: start;
+  text-align: center;
+}
+.descricao {
+  text-align: right;
+}
+/*Estilos gerais*/
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+}
+h1,
+p {
+  margin: 0px;
 }
 
 h1 {
-  text-align: center;
+  font-size: 48px;
+  line-height: 1;
 }
 
-h2 {
-  margin-top: 0px;
+p,
+span {
+  font-size: 20px;
 }
 
+img {
+  max-width: 100%;
+  border: 4px;
+}
 .comprar {
   background: #a8f;
   color: #103;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 4px;
+  font-size: 20px;
 }
-
-.item {
+.preco {
   background: #ddd;
-  border: 1px solid #e7e7e7;
-  padding: 20px;
+  padding: 5px 10px;
   border-radius: 4px;
-  display: grid;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 20px;
-  justify-content: center;
 }
