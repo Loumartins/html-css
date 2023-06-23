@@ -1,0 +1,67 @@
+body {
+  font-family: Arial;
+  background: #f7f7f7;
+  height: 1000px;
+}
+.logo {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 20px;
+}
+.menu-itens {
+  background: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.bicicleta {
+  max-width: 100%;
+}
+.grid-descricao {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.descricao {
+  display: grid;
+  background-color: white;
+  padding: 20px;
+}
+
+.grid-descricao .descricao {
+  place-content: center;
+}
+.descricao h1 {
+  margin: 0px;
+}
+.descricao h1,
+p,
+span {
+  text-align: end;
+}
+.descricao p {
+  font-size: 20px;
+}
+.botao {
+  background: #ee2211;
+  place-self: end;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.detalhe {
+  background: #ee2211;
+  border: 2px solid #ee2211;
+  width: 50px;
+  position: relative;
+  top: -220px;
+  left: 425px;
+}
